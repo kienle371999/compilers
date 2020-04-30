@@ -1,4 +1,6 @@
 # Construct lexical analyzer for VC programing language
 
-# Run the project
-make start-project
+Run the project
+```javascript
+    make start-project
+```
