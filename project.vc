@@ -3,7 +3,7 @@ float addNumber(float num1, float num2) {
 }
 int main() { 
     boolean checkSum = false;   
-    string text = "hello";
+    putStringLn("hello");
     float resultNumber = addNumber(3.14, 2.3E+4);
     putFloatLn(resultNumber);
 

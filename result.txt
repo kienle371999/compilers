@@ -29,10 +29,10 @@ checkSum Identifiers
 false BOOLEAN
 ; Seperators
 
-string Identifiers
-text Identifiers
-= Assignment-Operators
-hello Identifiers
+putStringLn Identifiers
+( Seperators
+"hello" STRING
+) Seperators
 ; Seperators
 
 float Keywords

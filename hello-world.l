@@ -46,7 +46,8 @@ boolean|break|continue|else|for|float|if|int|return|void|while {
 {FLOAT} {
     fprintf(yyout,"%s FLOAT\n",yytext); 
 }
-""[a-zA-Z]*"" {
+
+["].*["] {
     fprintf(yyout,"%s STRING\n",yytext); 
 }
 (.|" ") 

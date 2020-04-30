@@ -1,1 +1,1 @@
-# compilers
+# Construct lexical analyzer for VC programing language
