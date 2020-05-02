@@ -56,7 +56,10 @@ boolean|break|continue|else|for|float|if|int|return|void|while {
 int yywrap(){} 
 int main(){ 
     // read the program
-    yyin = fopen("project.vc", "r"); 
+    char fileName[100]; 
+    printf("Enter the filename: "); 
+    scanf("%s", fileName); 
+    yyin = fopen(fileName, "r"); 
   
     // append data to the particular file
     yyout = fopen("result.txt", "w");
