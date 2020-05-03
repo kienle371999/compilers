@@ -1,5 +1,7 @@
+source_project = project.vc
+
 start-project:
-	rm -rf lex.yy.cc a.out result.txt
-	lex hello-world.l
-	gcc lex.yy.c
-	./a.out 
+	rm -rf search.java search.class result.txt
+	jflex hello-world.jflex
+	javac search.java
+	java search $(source_project)
